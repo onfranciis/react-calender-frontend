@@ -12,6 +12,7 @@
     font-size: 25px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 10px;
 }
@@ -84,4 +85,14 @@ input[type="submit"]:hover{
     font-size: 40px;
     padding: 5px 15px;
     margin: 20px auto;
+}
+
+@media screen and (max-width: 600px) {
+  .Editor{
+    width: 100%;
+  }
+
+  input[type='text']{
+    width: 100%;
+  }
 }

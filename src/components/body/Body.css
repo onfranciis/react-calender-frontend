@@ -8,7 +8,7 @@
 .myCalender{
     text-align: center;
     color: rgb(30, 140, 103);
-    font-size: 70px;
+    font-size: 3rem;
     text-decoration: none;
     margin: 20px 0 40px 0;
 }
@@ -41,4 +41,11 @@
 
 .icon2:hover{
     color: rgb(115, 154, 159);
+}
+
+@media screen and (max-width: 600px) {
+  .Body{
+    width: 100%;
+    padding: 40px 5px;
+  }
 }

@@ -1,0 +1,12 @@
+.Suggestions{
+    background-color: rgb(30, 140, 103);
+    /* background-color: powderblue; */
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.Suggestions .message{
+    margin: 20px;
+}

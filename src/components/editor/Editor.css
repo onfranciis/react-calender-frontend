@@ -1,0 +1,87 @@
+.Editor{
+    width: fit-content;
+    background-color: rgb(0, 0, 0);
+    color: rgb(30, 140, 103);
+    text-shadow: 0 0 ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.Editor>form>label{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+}
+
+.Editor>form>label>p{
+    margin: 15px 0;
+}
+
+input{
+    width: fit-content;
+    background-color: transparent;
+    color: rgb(30, 140, 103);
+    font-size: 25px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    accent-color: black;
+    padding: 0 10px 5px;
+    margin: 10px;
+}
+
+input[type="text"]{
+    width: fit-content;
+    background-color: transparent;
+    color: rgb(30, 140, 103);
+    font-size: 25px;
+    border: 1px solid transparent;
+    border-bottom: 3px solid rgb(30, 140, 103);
+    border-radius: 0px;
+    accent-color: black;
+    padding: 0 10px 5px;
+    margin: 10px;
+}
+
+input[type="submit"]{
+    width: fit-content;
+    background-color: rgb(30, 140, 103);
+    color: black;
+    font-size: 25px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    accent-color: black;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(20, 109, 79);
+    color: black;
+}
+
+.formError{
+    color: rgb(172, 0, 0);
+    text-align: center;
+}
+
+.affirmation{
+    color: powderblue;
+    font-size: 20px;
+    display: block;
+    transition: display 2s ease-in-out;
+}
+
+.formTitle{
+    width: fit-content;
+    background-color: rgb(30, 140, 103);
+    border: 4px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    padding: 5px 15px;
+    margin: 20px auto;
+}

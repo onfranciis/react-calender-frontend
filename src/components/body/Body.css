@@ -1,0 +1,44 @@
+.Body{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+}
+
+
+.myCalender{
+    text-align: center;
+    color: rgb(30, 140, 103);
+    font-size: 70px;
+    text-decoration: none;
+    margin: 20px 0 40px 0;
+}
+
+.myCalenderParent a{
+    text-decoration: none;
+}
+
+.icons{
+    width: fit-content;
+    background-color: transparent;
+    font-size: 70px;
+    padding: 0;
+    margin: 20px auto 0;
+}
+
+.icon1{
+    color: lightgreen;
+    margin: 0 10px;
+}
+
+.icon1:hover{
+    color: rgb(80, 154, 80);
+}
+
+.icon2{
+    color: powderblue;
+    margin: 0 10px;
+}
+
+.icon2:hover{
+    color: rgb(115, 154, 159);
+}

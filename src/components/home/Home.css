@@ -1,0 +1,10 @@
+.Home{
+    width: 90%;
+    background-color: black;
+    color: rgb(30, 140, 103);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 70px auto;
+}

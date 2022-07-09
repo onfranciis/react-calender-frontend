@@ -1,0 +1,21 @@
+.SuggestionsBlock{
+    background-color: powderblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.SuggestionsBlock .event{
+    background-color: powderblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    align-items: center;
+    padding: 3px 10px;
+    margin: 0px 0;
+}
+
+.SuggestionsBlock .eventres{
+    font-size: 25px;
+}
